@@ -22,7 +22,7 @@ class NatsStorage(BaseStorage):
         self, 
         nc: Client, 
         js: JetStreamContext, 
-        key_builder: Optional[KeyBuilder] = None, 
+        key_builder: Optional[KeyBuilder] = None,
         fsm_states_bucket: str = 'fsm_states_aiogram',
         fsm_data_bucket: str = 'fsm_data_aiogram'
     ) -> None:
